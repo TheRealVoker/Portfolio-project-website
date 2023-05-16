@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Voker</title>
+		<link rel="stylesheet" href="resources/styles.css" />
+		<link id="theme-style" rel="stylesheet" href="" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,300;0,400;1,300;1,400&family=Roboto:wght@300;400&display=swap"
+			rel="stylesheet"
+		/>
+	</head>
+	<body>
+		<header>
+			<nav>
+				<ul id="nav-links">
+					<li><a href="#about">About Me</a></li>
+					<li><a href="#skills">Skills</a></li>
+					<li><a href="#projects">Projects</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			</nav>
+		</header>
+		<main>
+			<!-- INTRODUCTION -->
+
+			<section id="welcome-wrapper">
+				<div id="greeting-wrapper">
+					<img id="hero" src="resources/images/squid.jpg" alt="" />
+					<h1>Hello World, I'm <span>Voker.</span></h1>
+					<p>Full-Stack Developer</p>
+				</div>
+			</section>
+
+			<!--BUTTON -->
+			<button onclick="myFunction()">Toggle Dark Mode</button>
+
+			<!--ABOUT ME -->
+
+			<section id="about">
+				<img class="icon" src="resources/images/about.png" alt="">
+				<div class="heading">
+					<h2>About Me</h2>
+				</div>
+				<div id="bio">
+					<p>
+						Helo my name is Voker, not my real name just a nickname. I am currently following the Full-Stack Engineer
+						Career Path on Codecademy. I am learning new skills
+						everyday as i progress through this path and i hope to complete all the modules in the next coming months
+					</p>
+				</div>
+			</section>
+			<hr />
+
+			<!-- SKILLS -->
+
+			<section id="skills">
+				<img class="icon" src="resources/images/skills.png" alt="">
+				<div class="heading">
+					<h2>Skills</h2>
+				</div>
+				<div id="skills-container">
+					<img
+						src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg"
+						alt="HTML icon"
+					/>
+					<img
+						src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg"
+						alt="CSS3 icon"
+					/>
+					<img
+						src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg"
+						alt="JavaScript icon"
+					/>
+					<img
+						src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-plain.svg"
+						alt="Git icon"
+					/>
+					<a class="github" href="https://github.com/therealvoker" target="_blank"
+						><img
+						 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+							alt="GitHub icon"
+					/></a>
+				</div>
+			</section>
+			<hr />
+
+			<!-- PROJECTS -->
+
+			<section id="projects">
+				<img class="icon" src="resources/images/projects.png" alt="">
+				<div class="heading">
+					<h2>Projects</h2>
+				</div>
+				<div id="project-container">
+					<div class="project" id="excursion">
+						<img src="resources/images/soon.jpg" alt="coming soon image" />
+					</div>
+					<div class="project" id="studio">
+						<img
+							src="resources/images/soon.jpg"
+							alt="coming soon image"
+						/>
+					</div>
+					<div class="project" id="book-em">
+						<img src="resources/images/soon.jpg" alt="coming soon image" />
+						
+					</div>
+				</div>
+			</section>
+			<hr />
+
+			<!-- CONTACT -->
+
+			<section id="contact">
+				<img class="icon" src="resources/images/contact.png" alt="">
+				<div class="heading">
+					<h2>Contact</h2>
+				</div>
+				<form id="contact-form" action="#">
+					<label for="name">Full Name</label>
+					<input type="text" name="name" id="name" class="input-field" />
+					<label for="subject">Subject</label>
+					<input type="text" name="subject" id="subject" class="input-field" />
+					<label for="email">Email</label>
+					<input type="email" name="email" id="email" class="input-field" />
+					<label for="message">Message</label>
+					<textarea name="message" id="message" class="input-field"></textarea>
+					<input id="submit-btn" type="submit" value="Send" />
+				</form>
+				<div class="socials">
+					<a class="github" href="https://github.com/therealvoker" target="_blank"
+						><img
+							src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+							alt="GitHub icon"
+					/></a>
+				</div>
+			</section>
+		</main>
+		<footer>
+			<p><div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div></p>
+		</footer>
+		<script src="resources/scripts/script.js"></script>
+	</body>
+</html>
